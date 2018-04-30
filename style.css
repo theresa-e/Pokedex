@@ -1,0 +1,32 @@
+body {
+    background-color: #DD092F;
+}
+
+h1 {
+    color: #fff;
+}
+
+/* p, ul, li {
+    font-size: 13px;
+    line-height: 13px;
+} */
+
+li {
+    margin-left: -5px;
+}
+.pokemonImages {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.title {
+    font-weight: bold;
+    line-height: 13px;
+}
+
+.pokemonInfo {
+    background-color: #FBFBFB;
+    min-height: 200px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
