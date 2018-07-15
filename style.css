@@ -1,32 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 body {
-    background-color: #DD092F;
+    background-color: #ce9c9c;
+    font-family: "Raleway";
+    margin: auto 0px;
 }
 
-h1 {
+.wrapper {
+    margin: 0px auto;
+    width: 80%;
+    text-align: center;
     color: #fff;
 }
 
-/* p, ul, li {
-    font-size: 13px;
-    line-height: 13px;
-} */
+.subtitle {
+    text-align: center;
+    font-weight: 800;
+}
+
+.pokemonImages {
+    width: 50%;
+    background-color: #e0b1b1;
+    border-radius: 5px;
+    display: inline-block;
+    height: 600px;
+    vertical-align: top;
+    overflow: scroll;
+}
+
+.right {
+    background-color: #e0b1b1;
+    min-height: 600px;
+    border-radius: 5px;
+    margin-left: 5px;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.right li {
+    text-align: left;
+}
+
+.info-title {
+    font-weight: 1600;
+    text-align: left;
+    margin-left: 15px;
+}
 
 li {
     margin-left: -5px;
 }
-.pokemonImages {
-    background-color: #fff;
-    border-radius: 5px;
+
+span {
+    display: block;
+}
+span, a {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin: 5px 0px;
 }
 
-.title {
-    font-weight: bold;
-    line-height: 13px;
-}
-
-.pokemonInfo {
-    background-color: #FBFBFB;
-    min-height: 200px;
-    border-radius: 5px;
-    margin-left: 5px;
+span, a:hover{
+    color: #6a4949;
 }
